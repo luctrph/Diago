@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+
+<html>
+<body>
+    <h1>Day la template </h1>
+    <p>Chao ban <b>{{name}}</b></p>
+    <ul>
+        {% for item in taisan %}
+            {% if item != "xe may" %}
+                <li>{{item}}</li>
+            {% endif %}            
+        {% endfor %}
+    </ul>
+</body>
+</html>
